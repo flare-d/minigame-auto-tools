@@ -1,6 +1,4 @@
-# minigame-auto-tools
-
- **Minigame Auto Tools**
+# Minigame Auto Tools
 
 A lightweight Fabric client-side mod for Minecraft 1.21.4 designed specifically for minigame enthusiasts. Automates tedious inventory and building tasks so you can focus on the game.
 
@@ -48,6 +46,31 @@ Item pickup notifications slide in from the left side of the screen, showing the
 4. Launch the game through the Fabric profile.
 
 > This is a **client-side only** mod. It does not need to be installed on the server and works on any multiplayer server.
+
+---
+
+## Building from Source
+
+To compile the mod yourself, you will need **JDK 21** and **Git** installed.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/MinigameAutoTools.git
+   cd MinigameAutoTools
+   ```
+
+2. Build the mod using the Gradle wrapper:
+   ```bash
+   ./gradlew build
+   ```
+   *On Windows, use `gradlew.bat build` instead.*
+
+3. Once the build finishes, the compiled mod JAR will be located at:
+   ```
+   build/libs/auto-tools-1.2.0.jar
+   ```
+
+4. Copy the JAR from `build/libs/` (the one without `-sources` or `-dev` suffix) into your `.minecraft/mods` folder.
 
 ---
 

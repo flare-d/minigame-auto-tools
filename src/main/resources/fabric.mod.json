@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "auto-tools",
+  "version": "1.4.1",
+  "name": "Auto Tools",
+  "description": "Auto tool, replenish, scaffold, wool safety, water drop, resource hud, pickup notifier",
+  "authors": ["AutoTools"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autotools.AutoToolsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
